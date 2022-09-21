@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Tugas 3 PBP</h1>
+<h2>Nama: {{nama}} </h2>
+<h3>Student Id : {{student_id}} </h3>
+
+<!-- <b>{{nama}}</b> -->
+
+<style>
+</style>
+<table>
+    <tr>
+        <th>title</th>
+        <th>rating</th>
+        <th>release_date</th>
+        <th>watched</th>
+        <th>review</th>
+    </tr>
+    {% comment %} Tambahkan data di bawah baris ini {% endcomment %}
+    {% for film in list_favoritefilm %}
+    <tr>
+        <th>{{film.title}}</th>
+        <th>{{film.rating}}</th>
+        <th>{{film.release_date}}</th>
+        <th>{{film.watched}}</th>
+        <th>{{film.review}}</th>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock content %}

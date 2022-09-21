@@ -1,0 +1,112 @@
+[
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":1,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":2,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":3,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":4,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":5,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":6,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":7,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":8,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":9,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+},
+{
+    "model":"mywatchlist.Myfavoritewatchlist",
+    "pk":10,
+    "fields":{
+        "review" : "models.TextField()",
+        "watched" : "models.TextField()",
+        "title" : "models.TextField()",
+        "rating" : 100,
+        "release_date" : "models.TextField()"
+    }
+}
+]
