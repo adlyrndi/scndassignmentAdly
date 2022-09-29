@@ -3,110 +3,110 @@
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":1,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "Crazy Rich Asians” doesn’t reinvent the romantic comedy or stretch it in any new directions. The ‘fish out of water’, ‘meet the parents’, and ‘rags meets riches’ story elements have been done many times before. This film simply does them better.",
+        "watched" : "Yes",
+        "title" : "Crazy Rich Asian",
+        "rating" : "10/10",
+        "release_date" : "August 15, 2018"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":2,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "This movie was a lot better than I expected. At first I thought it would be a bit cheesy especially looking at the cast that consisted of young actors and actresses. But as I continued watching, it was surprisingly good with some smooth transition between one plot to another and a wonderful story telling with some excitement throughout the movie.",
+        "watched" : "Yes",
+        "title" : "Mencuri Raden Saleh",
+        "rating" : "10/10",
+        "release_date" : "August 25, 2022"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":3,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "The entire casts acted pretty well. Storyline just flat not sure what is the message writers try to share is it terorist demo or about the wide sadnest coz her husband passed away on duty. Another item iritating me was the props not well present what regular cops typically used, the effect of bombing scene looks fake ah so sad such wasting a great talent from this moview.",
+        "watched" : "No",
+        "title" : "Sayap Sayap Patah",
+        "rating" : "6/10",
+        "release_date" : "August 18, 2022"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":4,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "Top Gun Maverick is an awesome action film that lives up to the original film and way superior as well. It is one awesome thrill ride that will have the audiences gasping for air with its exhilarating aerial combat scenes. The plot is great. It continues with Maverick (Tom Cruise) being assigned to train new pilots before they go off on a challenging mission. Rooster (Miles Teller) is among the recruits which Maverick tries to reconnect after the incident with his father in the previous film.",
+        "watched" : "No",
+        "title" : "Top Gun: Maverick",
+        "rating" : "9/10",
+        "release_date" : "May 27, 2022"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":5,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "This film is an emotional rollercoaster with some of the coolest superhero plot lines ever drawn up. It's straight up the most epic Marvel film that will probably ever be created. I don't see how Marvel could ever top this, but getting to see these characters all together at least one last time was a reward all on its own.",
+        "watched" : "Yes",
+        "title" : "Avengers: Endgame",
+        "rating" : "8/10",
+        "release_date" : "April 24, 2019)"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":6,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "I forgot how massive this movie was with very well-done CGI works. It's just awesome. Normally this amount of visual effects would tire my eyes but they managed how to not do that to the audience by using a very professionally made color grading. Don't think I NEED to mention how Benedict Cumberbatch fits his role. It's like he was born to play Doctor Strange.",
+        "watched" : "Yes",
+        "title" : "Doctor Strange",
+        "rating" : "9/10",
+        "release_date" : "November 4, 2016"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":7,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "A science-fiction masterpiece. Nolan executes a marvelous direction that slowly but efficiently puts in place a dark world creating a necessity to save humanity. Add to that great performances from Nolan and Hathaway plus a great score from Hans Zimmer. The result is on the best science-fiction movies of all time.",
+        "watched" : "No",
+        "title" : "Interstellar",
+        "rating" : "9/10",
+        "release_date" : "November 7, 2014"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":8,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "Far from home was under a lot of pressure from Endgame and homecoming in order to live up to the expectations set by both movies. It had to confront the problems and heartbreak from the last Mcu film while retaining the humour and action from the previous Spider-Man film. Not only does it do this far more successfully than I could have imagined, yet it adds so much more to the film. From unexpected plot twits to silly romance. This film is a must see to any fan of the Mcu. Make sure you stay till the very very end. You will regret it if you leave early. Post credit scenes will blow your mind in a short space of time",
+        "watched" : "Yes",
+        "title" : "Spider-man: Far from home",
+        "rating" : "8/10",
+        "release_date" : "July 2, 2019"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":9,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "The cinematography of this film was just OK with some obvious bad CGI, and one would come to expect something better from a Marvel superhero film (as shown by the budget). The directing was fairly decent. The story was ok, but nothing overly exciting. Way too much spotlight on the Black Panther conflict here. I feel the story would have been better told had there been another villain.",
+        "watched" : "Yes",
+        "title" : "Black Panther",
+        "rating" : "7/10",
+        "release_date" : "February 16, 2018"
     }
 },
 {
     "model":"mywatchlist.Myfavoritewatchlist",
     "pk":10,
     "fields":{
-        "review" : "models.TextField()",
-        "watched" : "models.TextField()",
-        "title" : "models.TextField()",
-        "rating" : 100,
-        "release_date" : "models.TextField()"
+        "review" : "I thought this film was good but I just don't get the hype personally. The acting was amazing and the film was good overall but I think 'masterpiece' and 'film of the year' are a bit overused throughout the reviews. In no way did I dislike this film, I thought it was really good, just overhyped. I feel as though a lot of the 10/10 reviews are purely based on the fact that it already has amazing reviews and so people want to carry the praise further and that it is about the joker. If this film was released and was about some random guy in the same situation, I don't think the reviews would be as high but maybe that's the point.",
+        "watched" : "Yes",
+        "title" : "Joker",
+        "rating" : "7/10",
+        "release_date" : "October 4, 2019"
     }
 }
 ]

@@ -1,0 +1,125 @@
+<style>
+    /*   color variables */
+    /*   border radius */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+        font-family: Georgia, serif;
+        font-size: 45px;
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-family: Georgia, serif;
+        font-size: 20px;
+        height: 150%;
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        font-family: Georgia, serif;
+        font-size: 15px;
+        height: 20%;
+        width: 100%;
+        text-align: center;
+    }
+    body {
+        font-family: Georgia, serif;
+        height: 75vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: #4f61bc;
+        font-size: 2rem;
+        background-color: #e98e1f;
+    }
+
+    table {
+        border-collapse: collapse;
+        background-color: white;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    table th {
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-size: 0.7rem;
+        font-weight: 900;
+    }
+    table td {
+        padding: 1rem 2rem;
+        text-decoration: none;
+    }
+    table a {
+        text-decoration: none;
+        color: #2962ff;
+    }
+    table .amount {
+        font-family: Georgia, serif;
+        text-align: right;
+    }
+    table tr:nth-child(even) {
+        background-color: #f4f6fb;
+    }
+    
+    
+
+</style>
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html>
+    <head>
+        <h1>TO DO LIST</h1>
+        <h2>by: adly renadi</h2>
+        <p><strong>Haloo <em>{{user.username}}</em>, Tambah task yuk! </strong></p>
+    </head>
+    
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tanggal Pembuatan</th>
+                    <th>Judul</th>
+                    <th>Deskripsi</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for task in list_of_task %}
+                <tr>
+                    <td>{{task.date}}</td>
+                    <td>{{task.title}}</td>
+                    <td>{{task.description}}</td>
+                    
+                    {% if task.status == True %}
+                    <td>Selesai</td>
+                    {% else %}
+                    <td>Belum Selesai</td>
+                    {% endif %}
+                    <td>
+                        <a href="delete/{{ task.title }}"><button type="submit" class="btn btn-delete">Hapus Task</button></a>
+                        <a href="update/{{ task.title }}"><button type="submit" class="btn btn-success ms-1">Selesai</button></a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>    
+        </table>
+        <button class="btn btn1"><a href="{% url 'todolist:create_task' %}">Tambah Task!</a></button>
+        <button class="btn btn2"><a href="{% url 'todolist:logout' %}">Logout</a></button>
+    </body>
+    
+    
+    
+    {% endblock content %}
+</html>
